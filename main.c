@@ -22,7 +22,7 @@ int main(int argc, char **argv)
         return 0;
     }
 
-    FILE *fd = fopen("output.txt", "w");
+    FILE *fd = fopen("output.i", "w");
 
     if (fd == NULL)
     {
